@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorPrimary"
+  tools:context=".ItemList">
+
+  <android.support.v7.widget.RecyclerView
+    android:id="@+id/recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:layout_marginStart="0dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:paddingTop="64dp"
+    >
+  </android.support.v7.widget.RecyclerView>
+
+  <Button
+    android:id="@+id/goToCart"
+    style="@style/Widget.AppCompat.Button.Colored"
+    android:layout_width="150dp"
+    android:layout_height="35dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginStart="17dp"
+    android:layout_marginEnd="18dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/oval_button"
+    android:backgroundTint="@color/colorAccent"
+    android:drawableStart="@mipmap/ic_add_shopping_cart"
+    android:fontFamily="@font/raleway_bold"
+    android:hapticFeedbackEnabled="true"
+    android:onClick="adapterGoToCart"
+    android:text="@string/goToCart"
+    android:textColor="#fff"/>
+
+
+</RelativeLayout>

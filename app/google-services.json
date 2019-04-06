@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "301467839854",
+    "firebase_url": "https://quickshop-9da6d.firebaseio.com",
+    "project_id": "quickshop-9da6d",
+    "storage_bucket": "quickshop-9da6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301467839854:android:cb4dc0e9c9df6762",
+        "android_client_info": {
+          "package_name": "edu.duq.schoenp.quickshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301467839854-j37orni6iucmrh6jkmlar3bgksfam4gt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.duq.schoenp.quickshop",
+            "certificate_hash": "8e901f956440ea354c49033304a130c37c0b675d"
+          }
+        },
+        {
+          "client_id": "301467839854-dptq8bjph6i95ekufbnqb3c6uqq15shk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7i-aUq9HCdWPGIcUQH394UMwn8yTpl74"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301467839854-dptq8bjph6i95ekufbnqb3c6uqq15shk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorPrimary"
+  tools:context=".SplashScreen">
+
+
+  <Button
+    android:id="@+id/splashContinue"
+    style="@style/Widget.AppCompat.Button.Colored"
+    android:layout_width="150dp"
+    android:layout_height="35dp"
+    android:background="@drawable/oval_button"
+    android:backgroundTint="@color/colorAccent"
+    android:fontFamily="@font/raleway_bold"
+    android:onClick="showMap"
+    android:text="@string/splashContinue"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/howTo"/>
+
+  <ImageView
+    android:id="@+id/cart"
+    android:layout_width="167dp"
+    android:layout_height="200dp"
+    android:contentDescription="@string/cartPic"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.413"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+  <com.hanks.htextview.fade.FadeTextView
+    android:id="@+id/howTo"
+    android:layout_width="363dp"
+    android:layout_height="300dp"
+    android:layout_marginTop="168dp"
+    android:fontFamily="@font/rubik_medium"
+    android:gravity="start"
+    android:letterSpacing="0.08"
+    android:lineSpacingMultiplier="1.3"
+    android:text="@string/how_to"
+    android:textColor="#fff"
+    android:textSize="20sp"
+    app:animationDuration="1500"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+
+</android.support.constraint.ConstraintLayout>
