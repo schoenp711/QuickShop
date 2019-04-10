@@ -2,6 +2,6 @@
 
 
 
+Release APK: https://drive.google.com/file/d/1YB7vp1efqOkIIaK6BeR9eCHul2wcBPZh/view?usp=sharing
 
-
-https://schoenp711.github.io/QuickShop/
+Javadoc: https://schoenp711.github.io/QuickShop/
